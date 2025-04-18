@@ -132,7 +132,7 @@ sns.heatmap(conf_matrix, annot=True, fmt='d', cmap='Blues', xticklabels=['No Fra
 plt.ylabel('Actual')
 plt.xlabel('Predicted')
 plt.show()
-
+#visualizing
 # Call the plotPerColumnDistribution function
 plotPerColumnDistribution(df1, 10, 5)
 
